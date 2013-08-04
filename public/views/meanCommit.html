@@ -1,0 +1,5 @@
+<section data-ng-controller="MeanCommitsController">
+  <h1>Github Commit Graph</h1>
+  <p class="error">{{error}}</p>
+  <gh-visualization val="data" grouped="grouped" data-ng-init="getCommitData()"></gh-visualization>
+</section>
